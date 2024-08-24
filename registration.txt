@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+<body bgcolor="lightgray" align='center'>
+<br><br>
+<h1>REGISTRATION FORM</h1>
+<form>
+<fieldset>
+<legend><marquee><i><b>Fill The Form</b></i></marquee>	</legend>
+<label>First Name</label>
+<input tpe='text; name='firstname' size=15/><br><br>
+<label>Middle Name</label>
+<input tpe='text; name='middlename' size=15/><br><br>
+<label>Last Name</label>
+<input tpe='text' name='lastname' size=15/><br><br><br>
+<label>Course</label>
+<select>
+<option value='course'>Course</option>
+<option value=''BCA>BCA</option>
+<option value='BBA'>BBA</option>
+<option value='BTech'>BTech</option>
+<option value='MBA'>MBA</option>
+<option value='MCA'>MCA</option>
+<option value='MTech'>MTech</option>
+</select>
+<br><br>
+<label>Branch</label>
+<select>
+<option value='branch'>Branch</option>
+<option value='cse'>CSE</option>
+<option value='ECE'>ECE</option>
+<option value='EEE'>EEE</option>
+<option value='CIVIL'>CIVIL</option>
+<option value='MECHANICAL'>MECHANICAL</option>
+</select>
+<br><br>
+<label>Gender</label><br>
+<input type='radio' id='male' name='gender'/>Male<br>
+<input type='radio' id='female' name='gender'/>Female<br>
+<input type='radio' id='other' name='gender'/>Other<br><br>
+<label>Phone</label>
+<input type='tel' name='country code' value='+91' size=2/>
+<input type='tel' name='phone'  size=10><br><br>
+Address<br>
+<textarea cols='30' rows='5' value='address'></textarea><br><br>
+Email<br>
+<input type='email' id='email' name='email'/>
+<br><br>
+Password<br>
+<input type='password' id='pass' name='pass'>
+<br><br>
+Retype Password<br>
+<input type='password' id='repass' name='repeat'>
+<br><br>
+<input type='button' value='SUBMIT'/></fieldset>
+</form>
+</body>
+</html>
